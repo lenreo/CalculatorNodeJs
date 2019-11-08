@@ -1,0 +1,20 @@
+{
+  "name": "calculator-api",
+  "version": "1.0",
+  "description": "This API provides different services to obtain the result of different operations.",
+  "main": "index.js",
+  "scripts": {
+	"prestart": "npm install",
+	"start": "node index.js"
+  },
+  "keywords": [
+    "swagger"
+  ],
+  "license": "Unlicense",
+  "private": true,
+  "dependencies": {
+    "connect": "^3.2.0",
+    "js-yaml": "^3.3.0",
+    "oas3-tools": "^1.0.1"
+  }
+}
